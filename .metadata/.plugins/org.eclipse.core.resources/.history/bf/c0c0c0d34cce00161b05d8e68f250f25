@@ -1,0 +1,7 @@
+package com.play.song.random;
+
+public class TrackSongs {
+	
+	private int songId;
+
+}

@@ -1,0 +1,16 @@
+package com.rotate.array;
+
+//left rotation from given position
+public class RotateArrayReversalAlgorithm {
+
+	public static void main(String[] args) {
+		int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
+		leftRotation(arr, 2);
+
+	}
+
+	private static void leftRotation(int[] arr, int i) {
+		int temp=arr[0];
+		
+	}
+}

@@ -1,0 +1,19 @@
+package com.print.subset.array;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//String s = "abbabba";
+		String s="aabcccdee";
+		int i = 0;
+		int j=i+1;
+		boolean iscons=false;
+		while (s.charAt(i) == s.charAt(j)) {
+				i++;
+				j++;
+			}
+		s = s.substring(0, i) + s.substring(j);
+		System.out.println(s);
+	}
+
+}

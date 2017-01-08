@@ -1,0 +1,65 @@
+package com.find.next.greater.number;
+
+import java.util.Arrays;
+
+public class FindNextGreaterNumber {
+
+	public static void main(String[] args) {
+		// number in descending order-case 1
+		// not possible
+		// case 2- number is ascending order swap last two digit
+		// others traverse from the right find the smallest number stop at the
+		// position if u find smallest number
+		// then split the array from tht pos find the smallest number in 2 nd
+		// part
+		// swap the first smallest elem with this
+		// sort the elem after the swapped elem
+		//int num = 123456;
+		int num = 534976;
+		int[] numArray = new int[6];         
+
+		  for(int i=numArray.length-1;i>=0;i--)
+		  {
+			  numArray[i]=num%10; 
+		         num=num/10;
+		  }
+		int i, j;
+		int n = numArray.length;
+		for (i = n-1; i >=0; i--) {
+			if (numArray[i] > numArray[i - 1]) {
+				break;
+			}
+		}
+		if (i == 0) {
+			System.out.println("No number found");
+		}
+
+		int x = numArray[i - 1], smallest = i;
+		for (j = i + 1; j < n; j++) {
+			if (numArray[j] > x
+					&& numArray[j] < numArray[smallest]) {
+				smallest=j;
+
+			}
+		}
+		swap(numArray,smallest,i-1);
+		
+		sort(numArray,i,n);
+		for (int k=0;k<numArray.length;k++) {
+		 System.out.print(numArray[k]);
+		}
+	}
+
+	private static void sort(int[]numArray,int start, int end) {
+		Arrays.sort(numArray, start, end);
+		
+	}
+
+	private static void swap(int[]numArray,int num1, int num2) {
+		int temp=numArray[num1];
+		numArray[num1]=numArray[num2];
+		numArray[num2]=temp;
+		
+	}
+
+}

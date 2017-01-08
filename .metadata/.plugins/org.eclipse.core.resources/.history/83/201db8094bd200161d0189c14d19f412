@@ -1,0 +1,11 @@
+package com.find.next.greater.number;
+
+public class FindNextGreaterNumber {
+
+	public static void main(String[] args) {
+       // number in descending  order-case 1
+		//not possible 
+		
+	}
+
+}

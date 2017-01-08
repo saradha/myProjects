@@ -1,0 +1,12 @@
+package com.find.pair.gives.sum.array;
+
+public class FindPairOfElementGivesSum {
+
+	public static void main(String[] args) {
+		int A[] = {1, 4, 45, 6, 10, 8};
+        int n = 16;
+        printpairs(A,  n);
+
+	}
+
+}

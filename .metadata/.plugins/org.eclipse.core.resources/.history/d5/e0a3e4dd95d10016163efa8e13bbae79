@@ -1,0 +1,5 @@
+package com.superclass.subclass.exception;
+
+public class ClassA {
+
+}

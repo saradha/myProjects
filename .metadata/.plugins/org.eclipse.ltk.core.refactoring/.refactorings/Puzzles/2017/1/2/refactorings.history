@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BomberAlgorithm.java&apos; to &apos;BomberAlgorithm/src/com.bomber.algo.remove.consecutive.character&apos;&#x0D;&#x0A;- Original project: &apos;Puzzles&apos;&#x0D;&#x0A;- Destination element: &apos;BomberAlgorithm/src/com.bomber.algo.remove.consecutive.character&apos;&#x0D;&#x0A;- Original element: &apos;com.print.subset.array.BomberAlgorithm.java&apos;" description="Copy compilation unit" destination="=BomberAlgorithm/src&lt;com.bomber.algo.remove.consecutive.character" element1="/src&lt;com.print.subset.array{BomberAlgorithm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483887657543" units="1" version="1.0"/>
+</session>

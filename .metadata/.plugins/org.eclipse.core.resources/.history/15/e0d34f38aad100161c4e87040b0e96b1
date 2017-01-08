@@ -1,0 +1,9 @@
+
+public class calllfacility extends MobileOperations{
+	
+	
+	String operation(){
+		return "success";
+	}
+
+}

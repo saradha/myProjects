@@ -1,0 +1,13 @@
+package com.play.song.random;
+
+public class PlaySongRandom {
+
+	public static void main(String[] args) {
+		 for (int i = 1; c <= 10; c++) {
+		      System.out.println(t.nextInt(100));
+		    }
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.print.subset.array;
+
+public class FindSubSetArrayMaMinDifference {
+
+	public static void main(String[] args) {
+		int num[]={7, 3, 2, 4, 9, 12, 56} ;
+		int n=num.length;
+		int min=Integer.MAX_VALUE;
+		int max=Integer.MIN_VALUE;
+		for(int i=0;i<(1<<n);i++){
+			System.out.print("{");
+			for(int j=0;j<n;j++){
+				if((i&(1<<j))>0){
+					System.out.print(num[j]+ " ");
+				}
+				if(num[j]<min){
+					min=num[j];
+				}
+				if(num[j]>max){
+					max=num[j];
+				}
+				
+				System.out.print(min+" "+max);
+			}
+			System.out.println("}");
+		}
+	}
+
+}

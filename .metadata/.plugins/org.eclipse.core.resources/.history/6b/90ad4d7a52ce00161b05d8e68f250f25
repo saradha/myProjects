@@ -1,0 +1,24 @@
+package com.play.song.random;
+
+import java.util.Random;
+
+public class PlaySongRandom {
+
+	public static void main(String[] args) {
+		int[] songList = new int[100];
+		for (int i = 1; i <= 100; i++) {
+			songList[i] =i;
+		}
+		pickSongRandomAndPlay();
+
+	}
+
+	private static void pickSongRandomAndPlay() {
+		Random r = new Random();
+		for (int i = 1; i <= 100; i++) {
+			
+		}
+		
+	}
+
+}

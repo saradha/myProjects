@@ -1,0 +1,9 @@
+package com.inheritance.classexample;
+
+public class BaseDerivedClassCastingTest {
+	
+	public static void main(String args[]){
+		
+	}
+
+}

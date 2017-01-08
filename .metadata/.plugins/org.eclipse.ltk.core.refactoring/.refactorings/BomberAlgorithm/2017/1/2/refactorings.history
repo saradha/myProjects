@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.bomber.algo.remove.consecutive.character&apos; to &apos;com.bomber.remove.consecutive.character&apos;&#x0D;&#x0A;- Original project: &apos;BomberAlgorithm&apos;&#x0D;&#x0A;- Original element: &apos;BomberAlgorithm/src/com.bomber.algo.remove.consecutive.character&apos;&#x0D;&#x0A;- Renamed element: &apos;BomberAlgorithm/src/com.bomber.remove.consecutive.character&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.bomber.algo.remove.consecutive.character&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.bomber.algo.remove.consecutive.character" name="com.bomber.remove.consecutive.character" qualified="false" references="true" stamp="1483887674646" textual="false" version="1.0"/>
+</session>

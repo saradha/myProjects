@@ -1,0 +1,37 @@
+package com.print.subset.array;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// String s = "abbabba";
+		String s = "aabcccdee";
+		char[]str=s.toCharArray();
+		int i = 0;
+		int j = i + 1;
+		boolean isSplit=false;
+		while (s.charAt(i)==s.charAt(j)) {
+			j++;
+		}
+		if(isSplit){
+			s = s.substring(i,j-1);
+		}
+		System.out.println(s);
+	}
+
+	private static String findSubString(String s, int i, int j) {
+		boolean isMatch=false;
+		while (s.charAt(i) == s.charAt(j)) {
+			i++;
+			j++;
+			isMatch=true;
+
+		}
+		if (isMatch) {
+			s = s.substring(j, s.length() - 1);
+			i = 0;
+			j = i + 1;
+		}
+		return s;
+	}
+
+}

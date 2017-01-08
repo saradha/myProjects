@@ -1,0 +1,34 @@
+package com.play.song.random;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class PlaySongRandom {
+
+	public static void main(String[] args) {
+		/*Object[] arr = new Object[5];
+		for (int i = 0; i <= 4; i++) {
+			arr[i] = i;
+		}*/
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		pickSongRandomAndPlay(list);
+
+	}
+
+	private static void pickSongRandomAndPlay(ArrayList<Integer> list) {
+		ArrayList<Integer> newSongslist = new ArrayList<Integer>();
+		Random r = new Random();
+		while (list.size()>0) {
+			for (int i = 0; i <= 4; i++) {
+				int pos = r.nextInt(4);
+				int playedSong = list.get(pos);
+				newSongslist.add(playedSong);
+			    System.out.println("playing song " + playedSong);
+			}
+		}
+		
+		
+	}
+
+}

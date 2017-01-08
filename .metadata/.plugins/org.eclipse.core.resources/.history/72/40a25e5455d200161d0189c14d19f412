@@ -1,0 +1,16 @@
+package com.find.next.greater.number;
+
+public class FindNextGreaterNumber {
+
+	public static void main(String[] args) {
+        // number in descending  order-case 1
+		//not possible 
+		//case 2- number is ascending order swap last two digit
+		//others traverse from the right find the smallest number stop at the position if u find smallest number
+		// then split the array from tht pos find the smallest number in 2 nd part 
+		//swap the first smallest elem with this 
+		//sort the elem after the swapped elem
+		
+	}
+
+}

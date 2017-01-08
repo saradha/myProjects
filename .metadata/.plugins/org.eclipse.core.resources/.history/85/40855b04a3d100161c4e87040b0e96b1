@@ -1,0 +1,11 @@
+package com.reverse.array;
+
+public class ReverseArray {
+
+	public static void main(String[] args) {
+		int arr[]={2,5,19,20,3}; 
+			int temp=arr[]
+
+	}
+
+}

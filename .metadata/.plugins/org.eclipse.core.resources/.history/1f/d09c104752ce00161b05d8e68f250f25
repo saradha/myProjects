@@ -1,0 +1,16 @@
+package com.play.song.random;
+
+import java.util.Random;
+
+public class PlaySongRandom {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		int songList=new int[100];
+		for (int i = 1; i <= 100; i++) {
+			
+		}
+
+	}
+
+}

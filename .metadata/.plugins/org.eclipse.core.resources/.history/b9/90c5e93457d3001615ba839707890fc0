@@ -1,0 +1,23 @@
+package com.print.subset.array;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//String s = "abbabba";
+		String s="aabcccdee";
+		int i = 0;
+		int j=i+1;
+		boolean iscons=false;
+		while (!iscons) {
+			if (s.charAt(i) == s.charAt(i + 1)) {
+				s = s.substring(0, i) + s.substring(i + 2);
+				i++;
+			}else{
+				iscons=true;
+			}
+		}
+
+		System.out.println(s);
+	}
+
+}

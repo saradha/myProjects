@@ -1,0 +1,10 @@
+package com.find.next.greater.number;
+
+public class FindNextGreaterNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

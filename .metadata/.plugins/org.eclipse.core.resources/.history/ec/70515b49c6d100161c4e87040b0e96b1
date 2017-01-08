@@ -1,0 +1,13 @@
+package com.inheritance.classexample;
+
+public class BaseDerivedClassCastingTest {
+	
+	public static void main(String args[]){
+		B b= new B();
+		C c= new C();
+		B b1= new C();
+		C c = new B();
+		
+	}
+
+}

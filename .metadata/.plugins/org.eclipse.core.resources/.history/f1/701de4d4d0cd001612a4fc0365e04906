@@ -1,0 +1,10 @@
+package com.find.string.palindrom;
+
+public class FindStringIsPalindromOrNot {
+	
+	
+	public static void main(String args[]){
+		
+	}
+
+}

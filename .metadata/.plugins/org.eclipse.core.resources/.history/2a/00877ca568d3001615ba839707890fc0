@@ -1,0 +1,29 @@
+package com.print.subset.array;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// String s = "abbabba";
+		String s = "aabcccdee";
+		char[] str = s.toCharArray();
+		findSubString(s,0,1);
+		System.out.println(s);
+	}
+
+	private static String findSubString(String s,int i,int j) {
+		boolean isSplit = false;
+		while (s.charAt(i) == s.charAt(j)) {
+			j++;
+			isSplit = true;
+		}
+		if (isSplit) {
+			s = s.substring(i)+s.substring(j);
+			i = 0;
+			j = i + 1;
+		} else {
+			i ++;
+			j++;
+		}
+		return findSubString(s,i,j);
+	}
+}

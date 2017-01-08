@@ -1,0 +1,11 @@
+package com.superclass.subclass.exception;
+
+
+public class ClassB {
+	
+
+	protected ClassB getA(int i,String s)throws Exception {
+		System.out.println("inside getA method of ClassA throws IOexception");
+		return new ClassB();
+	}
+}

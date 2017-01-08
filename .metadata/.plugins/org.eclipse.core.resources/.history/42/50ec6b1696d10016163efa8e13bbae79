@@ -1,0 +1,9 @@
+package com.superclass.subclass.exception;
+
+import java.io.IOException;
+
+public class ClassB {
+	
+	protected ClassB getA(int i,String s)throws IOException;
+
+}

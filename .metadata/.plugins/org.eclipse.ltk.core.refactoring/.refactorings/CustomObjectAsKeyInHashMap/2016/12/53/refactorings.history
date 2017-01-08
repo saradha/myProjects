@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.employee.details.Employee&apos; to &apos;Account&apos;&#x0D;&#x0A;- Original project: &apos;CustomObjectAsKeyInHashMap&apos;&#x0D;&#x0A;- Original element: &apos;com.employee.details.Employee&apos;&#x0D;&#x0A;- Renamed element: &apos;com.employee.details.Account&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Employee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.employee.details{Employee.java[Employee" matchStrategy="1" name="Account" qualified="false" references="true" similarDeclarations="false" stamp="1482909098902" textual="false" version="1.0"/>
+</session>

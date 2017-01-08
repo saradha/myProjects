@@ -1,0 +1,66 @@
+package com.find.next.greatest.palindrom;
+
+public class NextGreatestPalindrom {
+
+	public static void main(String[] args) {
+		int num[] = { 9, 4, 1, 8, 7, 9, 7, 8, 3, 2, 2 };
+		int n = num.length;
+		if (isAllNine(num, n)) {
+			System.out.print(1);
+			for (int i = 1; i < n; i++) {
+				System.out.print(0);
+			}
+			System.out.print(1);
+
+		}else{
+			generateNextGreatestPalindrom(num, n);
+		}
+
+	}
+
+	private static void generateNextGreatestPalindrom(int num[],int n) {
+		boolean leftsmaller=false;
+		int mid=n/2;
+		int i=mid-1;
+		int j=(n % 2==1)? mid+1:mid;//if len is odd mid is mid +1 else mid
+		
+		//move i and j untill left and right are same
+		while(i>=0&&num[i]==num[j]){
+			i--;
+			j++;
+		}
+		
+		//check if left is smaller or i reached the boundry means the input itself a complete palindrom if true left to right copy is not sufficient need add +1 to mid and carry forward
+		if(i<0||num[i]<num[j]){
+			leftsmaller=true;
+		}
+		
+		//copy left to right
+		while(i>=0){
+			num[j]=num[i];
+			i--;
+			j++;
+		}
+		// this s for case 1 and case 2.2 
+		//case 1 - input itself a palindrom
+		//case 2.1 - left is greater than right 
+		//case 2.1 - left is smaller than right 
+		//1 and 2.1 shd be handled in same way
+		if(leftsmaller){
+			i = mid - 1;
+			int carry = 1;
+			
+		}
+	}
+
+	private static boolean isAllNine(int num[], int n) {
+		for (int i = 0; i < n; i++) {
+			if (num[i] != 9) {
+				return false;
+			}
+		}
+		return true;
+
+	}
+
+}

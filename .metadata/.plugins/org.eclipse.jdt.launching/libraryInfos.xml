@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\jre6" version="1.6.0_26">
+<bootpath>
+<entry path="C:\Program Files\Java\jre6\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Program Files\Java\jre6\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre6\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre6\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2" version="1.7.0_79">
+<bootpath>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\resources.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\rt.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\jsse.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\jce.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\charsets.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\jfr.jar"/>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ride-5.2.3-win64\OracleJDK-1.7.0_79_2\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2" version="1.7.0_79">
+<bootpath>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\resources.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\rt.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\jsse.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\jce.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\charsets.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\jfr.jar"/>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ride-5.2.3-win64\OpenJDK-1.7.0_79_2\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

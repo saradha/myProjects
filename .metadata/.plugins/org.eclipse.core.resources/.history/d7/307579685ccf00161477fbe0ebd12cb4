@@ -1,0 +1,68 @@
+package com.play.song.random;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
+public class PlaySongRandom {
+
+	public static void main(String[] args) {
+		/*
+		 * Object[] arr = new Object[5]; for (int i = 0; i <= 4; i++) { arr[i] =
+		 * i; }
+		 */
+		List<Songs> list = new ArrayList<Songs>();
+		for (int i = 0; i <= 4; i++) {
+			Songs s = new Songs();
+			s.setSongId("song " + i);
+			list.add(s);
+		}
+
+		pickSongRandomAndPlay(list);
+
+	}
+
+	private static void pickSongRandomAndPlay(List<Songs> list) {
+		Collections.shuffle(list);
+		List<Songs> newList = new ArrayList<Songs>();
+		while (list.size() > 0) {
+		for (int i=0; i<=4; i++) {
+			Songs song=list.get(i);
+			System.out.println("playing song " + song.getSongId());
+			list.remove(song);
+			newList.add(song);
+		}
+		}
+		/*int j=5;
+		Random r = new Random();
+		while (list.size() > 0) {
+			Songs song =null;
+			for (int i = 0; i < list.size(); i++) {
+				 song = list.get(r.nextInt(list.size())); 
+			
+			System.out.println("playing song " + song.getSongId());
+			list.remove(song); // the forgotten step
+			if (newList.size() <=j) {
+				newList.add(song);
+				
+				j--;
+			}
+			if (list.isEmpty()) {
+				list.addAll(newList);
+			}
+			}
+		}*/
+
+	}
+
+	private static int nextInt(int size) {
+		Random r = new Random();
+		int n = 0;
+		for (int i = 0; i < size; i++) {
+			n = r.nextInt(size);
+		}
+		return n;
+	}
+}

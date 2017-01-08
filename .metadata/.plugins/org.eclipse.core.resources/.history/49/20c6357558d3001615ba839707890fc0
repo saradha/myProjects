@@ -1,0 +1,17 @@
+package com.print.subset.array;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// String s = "abbabba";
+		String s = "aabcccdee";
+		int i = 0;
+		int j = i + 1;
+		while (s.charAt(i) == s.charAt(j)) {
+				i++;
+				j++;
+		}
+		System.out.println(s);
+	}
+
+}

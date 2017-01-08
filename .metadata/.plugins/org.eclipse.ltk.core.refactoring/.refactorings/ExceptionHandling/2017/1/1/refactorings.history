@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ClassA.java&apos; to &apos;ExceptionHandling/src/com.superclass.subclass.exception&apos;&#x0D;&#x0A;- Original project: &apos;ExceptionHandling&apos;&#x0D;&#x0A;- Destination element: &apos;ExceptionHandling/src/com.superclass.subclass.exception&apos;&#x0D;&#x0A;- Original element: &apos;com.superclass.subclass.exception.ClassA.java&apos;" description="Copy compilation unit" destination="/src&lt;com.superclass.subclass.exception" element1="/src&lt;com.superclass.subclass.exception{ClassA.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483435249696" units="1" version="1.0"/>
+</session>
